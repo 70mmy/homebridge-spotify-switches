@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-spotify-switches",
+  "version": "0.0.1",
+  "description": "Create HomeKit switches for songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": "Andrei Tomita",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
