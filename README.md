@@ -1,6 +1,12 @@
 # homebridge-spotify-switches
 
-A Homebridge plugin to add switches for songs
+The Spotify APP is perfect for remote controling your TV or any other player. This plugin is ment to be helpfull to automate Spotify action.
+
+With this plugin you can add switches to:
+
+1. Choose a song to play whenever a switch is pressed
+2. Choose a playlist to play whenever a switch is pressed
+3. Set the volume
 
 ## Setup
 
@@ -17,6 +23,10 @@ Add the following accessory definition to `~/.homebridge/config.json`:
   }
 ]
 ```
+
+## Usage
+
+You have to configure the switches by going to http://<homebrifge-ip>:8080. You will be asked to authorize the plugin to access your Spotify account and after that you can add and remove switches.
 
 ## Issues
 
